@@ -11,13 +11,21 @@ body {
   width: 30%;
   margin: 10px;
   height: auto;
-  border: 1px solid rosybrown;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
   padding: 10px;
+}
+
+.card:hover{
+  -webkit-box-shadow: 10px 10px 16px 13px rgba(201,187,201,0.4);
+  -moz-box-shadow: 10px 10px 16px 13px rgba(201,187,201,0.4);
+  box-shadow: 10px 10px 16px 13px rgba(201,187,201,0.4);
+  transition: all 0.3s ease-out;
 }
 
 .card-title{
   text-transform: capitalize;
-  color: black;
+  color: #181609;
 }
 
 .card-body{
