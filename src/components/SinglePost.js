@@ -2,9 +2,9 @@ import React from 'react'
 
 const SinglePost = ({ title,body }) => {
     return (
-        <div>
-            <h3> {title} </h3>
-            <p> {body} </p>
+        <div className="card">
+            <h3 className="card-title"> {title} </h3>
+            <p className="card-body"> {body} </p>
         </div>
     )
 }

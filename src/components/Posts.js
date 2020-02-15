@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import SinglePost from './SinglePost'
+import './SinglePost.css'
 
 const Posts = () => {
 
@@ -38,7 +39,7 @@ useEffect(() => {
 
 
 return (
-        <div>
+        <div className="blog-card">
             {posts.map(post => (
                 <SinglePost key={post.id} title={post.title} body={post.body} />
             ))}
