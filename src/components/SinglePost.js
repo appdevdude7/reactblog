@@ -1,9 +1,10 @@
 import React from 'react'
 
-const SinglePost = () => {
+const SinglePost = ({ title,body }) => {
     return (
         <div>
-            SinglePost
+            <h3> {title} </h3>
+            <p> {body} </p>
         </div>
     )
 }
